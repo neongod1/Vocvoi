@@ -1,0 +1,539 @@
+{
+  "products": [
+    {
+      "slug": "titanium-pan",
+      "name": "Titanium Frying Pan",
+      "tagline": "The everyday essential, redefined in pure titanium.",
+      "imagePrefix": "/images/products/titanium-pan/titanium-pan",
+      "featured": true,
+      "heroAlt": "VocVoi Titanium Frying Pan on marble countertop",
+
+      "description": {
+        "short": "Our flagship titanium frying pan — pure titanium surface, zero chemical coatings, and naturally low-stick performance. From delicate eggs to high-heat seared steaks, one pan does it all.",
+        "long": "The VocVoi Titanium Frying Pan is where material science meets everyday cooking. Crafted from medical-grade pure titanium, this pan gives you a cooking surface that never leaches chemicals, never peels, and never wears out. Our patented No-Coating technology achieves natural food release without a single synthetic polymer — so you get the ease of nonstick without the toxins. Lightweight enough for daily use, tough enough for a lifetime."
+      },
+
+      "sellingPoints": [
+        {
+          "icon": "shield-check",
+          "title": "Pure Titanium Surface",
+          "body": "Medical-grade titanium cooking surface — no PFAS, no PTFE, no PFOA. The pan's surface IS the pan, not a coating applied on top."
+        },
+        {
+          "icon": "sparkles",
+          "title": "No-Coating Nonstick",
+          "body": "Patented No-Coating technology delivers smooth food release naturally — without a single drop of synthetic chemical coating."
+        },
+        {
+          "icon": "flame",
+          "title": "1000°F Oven Safe",
+          "body": "Built for extreme heat. Sear, roast, broil, and oven-finish without warping, fumes, or degradation. Stovetop to oven, no limits."
+        },
+        {
+          "icon": "zap",
+          "title": "All Cooktop Ready",
+          "body": "High magnetic conductivity base works on induction, gas, electric, and ceramic. Lightweight design with stay-cool ergonomic handle."
+        }
+      ],
+
+      "comparisonTable": {
+        "headers": ["Feature", "VocVoi Titanium", "Stainless Steel", "Ceramic Nonstick", "Traditional Nonstick"],
+        "rows": [
+          { "feature": "Chemical-free surface", "vocvoi": true, "stainless": true, "ceramic": true, "traditional": false },
+          { "feature": "Naturally nonstick (no coatings)", "vocvoi": true, "stainless": false, "ceramic": false, "traditional": false },
+          { "feature": "Oven safe to 1000°F", "vocvoi": true, "stainless": true, "ceramic": false, "traditional": false },
+          { "feature": "Metal utensil safe", "vocvoi": true, "stainless": true, "ceramic": false, "traditional": false },
+          { "feature": "No surface degradation over time", "vocvoi": true, "stainless": true, "ceramic": false, "traditional": false },
+          { "feature": "Lightweight (< 3 lbs per pan)", "vocvoi": true, "stainless": false, "ceramic": true, "traditional": true },
+          { "feature": "Induction compatible", "vocvoi": true, "stainless": true, "ceramic": false, "traditional": false },
+          { "feature": "Lifetime warranty", "vocvoi": true, "stainless": true, "ceramic": false, "traditional": false }
+        ]
+      },
+
+      "faqs": [
+        {
+          "question": "Does food stick to the titanium surface?",
+          "answer": "Our patented No-Coating surface uses precision-engineered micro-ridges to minimize food contact and distribute oil evenly. With a small amount of oil or butter, you'll get smooth, natural food release — eggs slide right off. It's not a chemical nonstick, but with proper preheating and a little oil, sticking is minimal."
+        },
+        {
+          "question": "Is VocVoi titanium cookware really chemical-free?",
+          "answer": "Absolutely. The cooking surface is pure titanium — no PFAS, PTFE, PFOA, ceramic sol-gel coatings, or synthetic nonstick layers of any kind. The pan's surface IS the pan, not a coating applied on top. We provide third-party lab certification for every batch."
+        },
+        {
+          "question": "Can I use metal utensils?",
+          "answer": "Yes. Titanium is naturally harder than stainless steel, so metal spatulas, whisks, and spoons won't scratch or damage the surface. This is one of the key advantages over coated pans."
+        },
+        {
+          "question": "How do I clean and maintain my titanium pan?",
+          "answer": "Everyday cleaning: warm soapy water and a soft sponge. For stubborn residue, a brief soak and gentle scrub with a non-abrasive pad does the job. The pan is dishwasher safe, but hand washing extends the pristine appearance. No special seasoning required — just cook and enjoy."
+        },
+        {
+          "question": "What's the warranty?",
+          "answer": "Every VocVoi pan is backed by a Lifetime Warranty against manufacturing defects. We also offer a 30-day risk-free trial. Cook with it, and if you don't love it, send it back for a full refund."
+        }
+      ],
+
+      "seo": {
+        "title": "Titanium Frying Pan | Pure Titanium Cookware | VocVoi",
+        "description": "VocVoi titanium frying pan. Medical-grade pure titanium surface, no chemical coatings, oven safe to 1000°F. All cooktop compatible. Lifetime warranty. Shop on Amazon.",
+        "keywords": ["titanium frying pan", "pure titanium cookware", "non-toxic frying pan", "PFAS-free pan", "titanium skillet"]
+      },
+
+      "variants": [
+        {
+          "sku": "10+12-inch-with-lid",
+          "name": "10\" + 12\" with Lids",
+          "shortName": "10\"+12\" w/ Lid",
+          "title": "VocVoi Titanium pans for cooking Non Stick with lid,10\"+12\" Uncoated Hammered titanium pro frying pan, PFAS Free Cookware, Butter warmer skillet, Induction & Oven-Safe | Uncoated Hammered Titanium Pro Pan, PFOA/PFAS/PTFE Free Cookware, Induction & Oven-Safe",
+          "subtitle": "Complete Duo with Tempered Glass Lids",
+          "imagesDir": "10+12-inch-Lid",
+          "category": "With Lid",
+          "specs": [
+            { "label": "Pieces", "value": "4 (10\" pan + 12\" pan + 10\" lid + 12\" lid)" },
+            { "label": "Sizes", "value": "10 inch & 12 inch" },
+            { "label": "Material", "value": "Medical-grade pure titanium (99.86%)" },
+            { "label": "Construction", "value": "5-ply full-clad" },
+            { "label": "Oven Safe", "value": "Up to 1000°F" },
+            { "label": "Cooktop", "value": "Induction, gas, electric, ceramic" },
+            { "label": "Lids", "value": "Tempered glass with steam vent ×2" }
+          ],
+          "amazon": {
+            "asin": "B0H8DCCFCR",
+            "title": "VocVoi Titanium pans for cooking Non Stick with lid,10\"+12\" Uncoated Hammered titanium pro frying pan, PFAS Free Cookware, Butter warmer skillet, Induction & Oven-Safe | Uncoated Hammered Titanium Pro Pan, PFOA/PFAS/PTFE Free Cookware, Induction & Oven-Safe",
+            "url": "https://www.amazon.com/dp/B0H8DCCFCR",
+            "price": "$329.99",
+            "rating": 4.9,
+            "reviewCount": 29
+          }
+        },
+        {
+          "sku": "10+12-inch",
+          "name": "10\" + 12\" Set",
+          "shortName": "10\"+12\"",
+          "title": "VocVoi Titanium pans for cooking,10\"+12\" frying pan,butter warmer skillet | Uncoated Hammered Titanium Pro Pan, PFOA/PFAS/PTFE Free Cookware, Induction & Oven-Safe",
+          "subtitle": "The Essential Duo for Everyday Cooking",
+          "imagesDir": "10+12-inch",
+          "category": "Pans Only",
+          "specs": [
+            { "label": "Pieces", "value": "2 (10\" pan + 12\" pan)" },
+            { "label": "Sizes", "value": "10 inch & 12 inch" },
+            { "label": "Material", "value": "Medical-grade pure titanium (99.86%)" },
+            { "label": "Construction", "value": "5-ply full-clad" },
+            { "label": "Oven Safe", "value": "Up to 1000°F" },
+            { "label": "Cooktop", "value": "Induction, gas, electric, ceramic" },
+            { "label": "Lids", "value": "Not included" }
+          ],
+          "amazon": {
+            "asin": "B0H8RTD7WP",
+            "title": "VocVoi Titanium pans for cooking,10\"+12\" frying pan,butter warmer skillet | Uncoated Hammered Titanium Pro Pan, PFOA/PFAS/PTFE Free Cookware, Induction & Oven-Safe",
+            "url": "https://www.amazon.com/dp/B0H8RTD7WP",
+            "price": "$189.99",
+            "rating": 4.9,
+            "reviewCount": 29
+          }
+        },
+        {
+          "sku": "12-inch-lid-upgrade",
+          "name": "12\" with Lid (Hammered Pro)",
+          "shortName": "12\" Pro+Lid",
+          "title": "VocVoi Titanium Pan, 12 Inch Pure Titanium Hammered Pro frying pan with Lid, Non-Toxic Skillet for Cooking, PFAS/PFOA/PTFE Free Cookware, Dishwasher&Oven Safe, Kitchen Induction Compatible",
+          "subtitle": "Pro-Grade Texture with Tempered Glass Lid",
+          "imagesDir": "12-inch-Lid-Upgrade",
+          "category": "With Lid",
+          "specs": [
+            { "label": "Pieces", "value": "2 (12\" pan + lid)" },
+            { "label": "Size", "value": "12 inch (30.5 cm)" },
+            { "label": "Material", "value": "Medical-grade pure titanium (99.86%)" },
+            { "label": "Surface", "value": "Hammered Pro texture" },
+            { "label": "Construction", "value": "5-ply full-clad" },
+            { "label": "Oven Safe", "value": "Up to 1000°F" },
+            { "label": "Cooktop", "value": "Induction, gas, electric, ceramic" },
+            { "label": "Lid", "value": "Tempered glass with steam vent" }
+          ],
+          "amazon": {
+            "asin": "B0H15892HW",
+            "title": "VocVoi Titanium Pan, 12 Inch Pure Titanium Hammered Pro frying pan with Lid, Non-Toxic Skillet for Cooking, PFAS/PFOA/PTFE Free Cookware, Dishwasher&Oven Safe, Kitchen Induction Compatible",
+            "url": "https://www.amazon.com/dp/B0H15892HW",
+            "price": "$139.99",
+            "rating": 4.9,
+            "reviewCount": 312
+          }
+        },
+        {
+          "sku": "12-inch-with-lid",
+          "name": "12\" with Lid",
+          "shortName": "12\" w/ Lid",
+          "title": "VocVoi Titanium pans for cooking with lid,12\" frying pan,butter warmer skillet | Uncoated Hammered Titanium Pro Pan, PFOA/PFAS/PTFE Free Cookware, Induction & Oven-Safe",
+          "subtitle": "Classic Size with Tempered Glass Lid",
+          "imagesDir": "12-inch-Lid",
+          "category": "With Lid",
+          "specs": [
+            { "label": "Pieces", "value": "2 (12\" pan + lid)" },
+            { "label": "Size", "value": "12 inch (30.5 cm)" },
+            { "label": "Material", "value": "Medical-grade pure titanium (99.86%)" },
+            { "label": "Construction", "value": "5-ply full-clad" },
+            { "label": "Oven Safe", "value": "Up to 1000°F" },
+            { "label": "Cooktop", "value": "Induction, gas, electric, ceramic" },
+            { "label": "Lid", "value": "Tempered glass with steam vent" }
+          ],
+          "amazon": {
+            "asin": "B0GZVPDZXH",
+            "title": "VocVoi Titanium pans for cooking with lid,12\" frying pan,butter warmer skillet | Uncoated Hammered Titanium Pro Pan, PFOA/PFAS/PTFE Free Cookware, Induction & Oven-Safe",
+            "url": "https://www.amazon.com/dp/B0GZVPDZXH",
+            "price": "$129.99",
+            "rating": 4.9,
+            "reviewCount": 29
+          }
+        },
+        {
+          "sku": "12-inch",
+          "name": "12\" Pan Only",
+          "shortName": "12\"",
+          "title": "VocVoi Titanium pans for cooking,12\" frying pan,butter warmer skillet | Uncoated Hammered Titanium Pro Pan, PFOA/PFAS/PTFE Free Cookware, Induction & Oven-Safe",
+          "subtitle": "The Everyday Essential — Pure Titanium",
+          "imagesDir": "12-inch",
+          "category": "Pans Only",
+          "specs": [
+            { "label": "Pieces", "value": "1 (12\" pan)" },
+            { "label": "Size", "value": "12 inch (30.5 cm)" },
+            { "label": "Material", "value": "Medical-grade pure titanium (99.86%)" },
+            { "label": "Construction", "value": "5-ply full-clad" },
+            { "label": "Oven Safe", "value": "Up to 1000°F" },
+            { "label": "Cooktop", "value": "Induction, gas, electric, ceramic" },
+            { "label": "Lid", "value": "Not included" }
+          ],
+          "amazon": {
+            "asin": "B0H4L1BFBR",
+            "title": "VocVoi Titanium pans for cooking,12\" frying pan,butter warmer skillet | Uncoated Hammered Titanium Pro Pan, PFOA/PFAS/PTFE Free Cookware, Induction & Oven-Safe",
+            "url": "https://www.amazon.com/dp/B0H4L1BFBR",
+            "price": "$99.99",
+            "rating": 4.9,
+            "reviewCount": 941
+          }
+        },
+        {
+          "sku": "8+10+12-inch-lid",
+          "name": "8\" + 10\" + 12\" Set with Lids (Hammered Pro)",
+          "shortName": "3-pc Pro Set",
+          "title": "VocVoi Titanium Pan, 8+10+12 Inch Pure Titanium Hammered Pro frying pan with Lid, Non-Toxic Skillet for Cooking, PFAS/PFOA/PTFE Free Cookware, Dishwasher&Oven Safe, Kitchen Induction Compatible",
+          "subtitle": "8\", 10\" & 12\" — Hammered Pro, Full Kitchen Coverage",
+          "imagesDir": "8+10+12-inch-Lid",
+          "category": "Complete Set",
+          "specs": [
+            { "label": "Pieces", "value": "6 (8\"+10\"+12\" pans + 3 lids)" },
+            { "label": "Sizes", "value": "8 inch, 10 inch & 12 inch" },
+            { "label": "Material", "value": "Medical-grade pure titanium (99.86%)" },
+            { "label": "Surface", "value": "Hammered Pro texture" },
+            { "label": "Construction", "value": "5-ply full-clad" },
+            { "label": "Oven Safe", "value": "Up to 1000°F" },
+            { "label": "Cooktop", "value": "Induction, gas, electric, ceramic" },
+            { "label": "Lids", "value": "Tempered glass with steam vent ×3" }
+          ],
+          "amazon": {
+            "asin": "B0H1C2RSBN",
+            "title": "VocVoi Titanium Pan, 8+10+12 Inch Pure Titanium Hammered Pro frying pan with Lid, Non-Toxic Skillet for Cooking, PFAS/PFOA/PTFE Free Cookware, Dishwasher&Oven Safe, Kitchen Induction Compatible",
+            "url": "https://www.amazon.com/dp/B0H1C2RSBN",
+            "price": "$239.99",
+            "rating": 4.9,
+            "reviewCount": 198
+          }
+        },
+        {
+          "sku": "8-pc-set",
+          "name": "8-Piece Complete Set",
+          "shortName": "8-pc Set",
+          "title": "VocVoi Titanium pans for cooking Non Stick with lid,8pcs Uncoated Hammered titanium pro frying pan, PFAS Free Cookware, Butter warmer skillet, Induction & Oven-Safe",
+          "subtitle": "Everything You Need — Pans, Lids & Accessories",
+          "imagesDir": "8-pc-set",
+          "category": "Complete Set",
+          "specs": [
+            { "label": "Pieces", "value": "8 (10\" pan + 12\" pan + lids + accessories)" },
+            { "label": "Sizes", "value": "10 inch & 12 inch" },
+            { "label": "Material", "value": "Medical-grade pure titanium (99.86%)" },
+            { "label": "Construction", "value": "5-ply full-clad" },
+            { "label": "Oven Safe", "value": "Up to 1000°F" },
+            { "label": "Cooktop", "value": "Induction, gas, electric, ceramic" },
+            { "label": "Lids", "value": "Tempered glass with steam vent ×2" }
+          ],
+          "amazon": {
+            "asin": "B0GXYSFRK5",
+            "title": "VocVoi Titanium pans for cooking Non Stick with lid,8pcs Uncoated Hammered titanium pro frying pan, PFAS Free Cookware, Butter warmer skillet, Induction & Oven-Safe",
+            "url": "https://www.amazon.com/dp/B0GXYSFRK5",
+            "price": "$699.99",
+            "rating": 4.9,
+            "reviewCount": 412
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "titanium-sauce-pan",
+      "name": "Titanium Sauce Pan",
+      "tagline": "Sauces, soups, and everything in between — pure and precise.",
+      "imagePrefix": "/images/products/titanium-sauce-pan",
+      "featured": true,
+      "heroAlt": "VocVoi Titanium Sauce Pan with glass lid on a modern stovetop",
+
+      "description": {
+        "short": "The 3-quart titanium sauce pan — precision heat control for delicate sauces, hearty soups, and perfect grains. Pure titanium cooking surface with tempered glass lid.",
+        "long": "Great sauces start with great heat control, and VocVoi's 5-ply titanium construction delivers exactly that. The pure titanium interior heats evenly from edge to edge — no hot spots to scorch your béchamel. The tempered glass lid lets you monitor without losing heat, and the flared pour spout makes transferring liquids clean and effortless."
+      },
+
+      "sellingPoints": [
+        {
+          "icon": "thermometer",
+          "title": "Precision Heat Control",
+          "body": "5-ply titanium construction eliminates hot spots for even, predictable heating across the entire cooking surface."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Pure Titanium Interior",
+          "body": "Medical-grade titanium — no chemical leaching into acidic sauces or long-simmered dishes."
+        },
+        {
+          "icon": "droplets",
+          "title": "Flared Pour Spout",
+          "body": "Engineered pour spout for clean, drip-free pouring — from the pan to the plate, nothing wasted."
+        },
+        {
+          "icon": "eye",
+          "title": "Tempered Glass Lid",
+          "body": "See-through lid with steam vent — monitor your cooking without lifting, heat stays in, flavor stays in."
+        }
+      ],
+
+      "faqs": [
+        {
+          "question": "What size is this sauce pan?",
+          "answer": "The VocVoi Titanium Sauce Pan is 3 quarts (2.8 liters) — the sweet spot for most home cooking. Perfect for pasta sauces, soups for 2-4 people, rice, grains, and reheating leftovers."
+        },
+        {
+          "question": "Is the lid oven-safe?",
+          "answer": "The tempered glass lid is oven-safe up to 450°F. For higher temperature oven use, simply remove the lid — the pan itself is safe to 1000°F."
+        },
+        {
+          "question": "Can I boil water in this pan?",
+          "answer": "Absolutely. The 5-ply construction conducts heat efficiently, bringing water to a boil quickly on any cooktop. The pure titanium surface is completely non-reactive, so even heavily salted water won't affect the pan."
+        }
+      ],
+
+      "seo": {
+        "title": "Titanium Sauce Pan 3QT | Pure Titanium Cookware | VocVoi",
+        "description": "VocVoi 3-quart titanium sauce pan. Pure titanium surface, precision pour spout, tempered glass lid. No chemical coatings. All cooktop compatible. Lifetime warranty.",
+        "keywords": ["titanium sauce pan", "titanium saucepan", "pure titanium pot", "non-toxic sauce pan", "3 quart saucepan"]
+      },
+
+      "variants": [
+        {
+          "sku": "sauce-pan-3qt",
+          "category": "Standard",
+          "name": "Titanium Sauce Pan 3QT",
+          "shortName": "3QT",
+          "imagesDir": "default",
+          "specs": [
+            { "label": "Capacity", "value": "3 quarts (2.8 liters)" },
+            { "label": "Material", "value": "Medical-grade pure titanium (99.86%)" },
+            { "label": "Construction", "value": "5-ply full-clad" },
+            { "label": "Weight", "value": "3.1 lbs (1.4 kg) with lid" },
+            { "label": "Oven Safe", "value": "Up to 1000°F (lid 450°F)" },
+            { "label": "Cooktop", "value": "Induction, gas, electric, ceramic" },
+            { "label": "Lid", "value": "Tempered glass with steam vent" }
+          ],
+          "amazon": {
+            "asin": "B0XXXXXXXXX",
+            "url": "https://www.amazon.com/dp/B0XXXXXXXXX",
+            "price": "$89.99",
+            "rating": 4.7,
+            "reviewCount": 856
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "titanium-saute-pan",
+      "name": "Titanium Sauté Pan",
+      "tagline": "Deep walls, wide surface — for when dinner gets ambitious.",
+      "imagePrefix": "/images/products/titanium-saute-pan",
+      "featured": true,
+      "heroAlt": "VocVoi Titanium Sauté Pan with a family-style one-pan meal",
+
+      "description": {
+        "short": "The 5-quart titanium sauté pan — deep, wide, and built for the big meals. One-pan dinners, braised dishes, and cooking for a crowd.",
+        "long": "When the recipe calls for more surface area and deeper walls, the VocVoi Titanium Sauté Pan delivers. The wide 11-inch cooking surface gives you room to brown without crowding, while the 3.5-inch walls keep everything contained. A helper handle makes lifting secure, and the matching lid turns this into a braising powerhouse."
+      },
+
+      "sellingPoints": [
+        {
+          "icon": "maximize",
+          "title": "Extra-Large Cooking Surface",
+          "body": "11-inch diameter with 3.5-inch deep walls — enough room to brown a whole batch of chicken without overcrowding."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Pure Titanium, No Coatings",
+          "body": "The entire cooking surface is pure titanium — no chemical layers to flake into your food, even after years of heavy use."
+        },
+        {
+          "icon": "grip-horizontal",
+          "title": "Helper Handle",
+          "body": "Riveted helper handle opposite the main handle for secure, two-handed lifting — even when the pan is fully loaded."
+        },
+        {
+          "icon": "layers",
+          "title": "5-Ply Even Heating",
+          "body": "Titanium surface, dual aluminum cores, and stainless steel exterior work together for consistent, edge-to-edge heat."
+        }
+      ],
+
+      "faqs": [
+        {
+          "question": "What's the difference between a sauté pan and a frying pan?",
+          "answer": "A sauté pan has straight, taller walls and a larger flat cooking surface — ideal for pan sauces, braising, and one-pan meals. A frying pan has sloped, shorter walls — better for flipping and tossing. The VocVoi Sauté Pan is your go-to for dishes that start on the stovetop and finish in the oven."
+        },
+        {
+          "question": "How many servings can I cook at once?",
+          "answer": "The 5-quart capacity comfortably serves 4-6 people, making it ideal for family dinners, meal prep, or entertaining."
+        }
+      ],
+
+      "seo": {
+        "title": "Titanium Sauté Pan 5QT | Pure Titanium Cookware | VocVoi",
+        "description": "VocVoi 5-quart titanium sauté pan. Pure titanium surface, helper handle, tempered glass lid. Ideal for one-pan meals and family cooking. Lifetime warranty.",
+        "keywords": ["titanium saute pan", "titanium sauté pan", "deep titanium pan", "non-toxic saute pan", "family cookware"]
+      },
+
+      "variants": [
+        {
+          "sku": "saute-pan-5qt",
+          "category": "Standard",
+          "name": "Titanium Sauté Pan 5QT",
+          "shortName": "5QT",
+          "imagesDir": "default",
+          "category": "Standard",
+          "specs": [
+            { "label": "Capacity", "value": "5 quarts (4.7 liters)" },
+            { "label": "Size", "value": "11\" wide × 3.5\" deep" },
+            { "label": "Material", "value": "Medical-grade pure titanium (99.86%)" },
+            { "label": "Construction", "value": "5-ply full-clad" },
+            { "label": "Weight", "value": "4.2 lbs (1.9 kg) with lid" },
+            { "label": "Oven Safe", "value": "Up to 1000°F (lid 450°F)" },
+            { "label": "Cooktop", "value": "Induction, gas, electric, ceramic" },
+            { "label": "Lid", "value": "Tempered glass with steam vent" }
+          ],
+          "amazon": {
+            "asin": "B0XXXXXXXXX",
+            "url": "https://www.amazon.com/dp/B0XXXXXXXXX",
+            "price": "$109.99",
+            "rating": 4.9,
+            "reviewCount": 623
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "titanium-wok-pan",
+      "name": "Titanium Wok Pan",
+      "tagline": "High heat. Big flavor. The wok, reimagined in pure titanium.",
+      "imagePrefix": "/images/products/titanium-wok-pan",
+      "featured": false,
+      "heroAlt": "VocVoi Titanium Wok Pan with a vibrant stir-fry dish",
+
+      "description": {
+        "short": "The 12-inch titanium wok — flat-bottom stability meets traditional wok versatility. Pure titanium surface stands up to the highest heat your stove can produce.",
+        "long": "A great wok demands extreme heat and a surface that can handle it. The VocVoi Titanium Wok Pan delivers both. The wide 12-inch flat bottom provides rock-solid stability on any cooktop (including induction), while the flared sides give you room to toss, stir, and sear. Pure titanium means you can crank the heat as high as you want — no coatings to break down, no fumes, just intense restaurant-quality stir-fry at home."
+      },
+
+      "sellingPoints": [
+        {
+          "icon": "flame",
+          "title": "Extreme Heat Ready",
+          "body": "Pure titanium thrives at the high temperatures wok cooking demands — no coating degradation, no fumes, just perfect searing."
+        },
+        {
+          "icon": "circle",
+          "title": "Flat-Bottom Stability",
+          "body": "Designed with a flat bottom for secure placement on any cooktop — induction, gas, electric, ceramic — without a wok ring."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Pure Titanium Surface",
+          "body": "Acidic stir-fry sauces, high heat, metal spatulas — nothing affects the titanium surface. No reactions, no leaching."
+        },
+        {
+          "icon": "move",
+          "title": "Toss-Friendly Design",
+          "body": "Lightweight titanium construction plus a long helper handle make tossing and flipping effortless — even with a full load."
+        }
+      ],
+
+      "faqs": [
+        {
+          "question": "Is this a traditional round-bottom wok?",
+          "answer": "No — the VocVoi Titanium Wok has a flat-bottom design. This makes it stable on all cooktop types (including induction and electric) without needing a wok ring, while still giving you the wide, flared sides for tossing and stir-frying."
+        },
+        {
+          "question": "How does it compare to a carbon steel wok?",
+          "answer": "Carbon steel woks require regular seasoning, are prone to rust, and can react with acidic ingredients. The VocVoi Titanium Wok requires no seasoning, never rusts, and is completely non-reactive — even with vinegar-based stir-fry sauces."
+        }
+      ],
+
+      "seo": {
+        "title": "Titanium Wok Pan 12\" | Pure Titanium Cookware | VocVoi",
+        "description": "VocVoi 12-inch titanium wok pan. Pure titanium surface, flat-bottom design for all cooktops, extreme heat ready. No chemical coatings. Lifetime warranty.",
+        "keywords": ["titanium wok", "titanium wok pan", "non-toxic wok", "flat bottom wok", "titanium stir fry pan"]
+      },
+
+      "variants": [
+        {
+          "sku": "wok-pan-12in",
+          "category": "Standard",
+          "name": "Titanium Wok Pan 12\"",
+          "shortName": "12\"",
+          "imagesDir": "default",
+          "category": "Standard",
+          "specs": [
+            { "label": "Diameter", "value": "12 inch (30.5 cm), flat bottom 7 inch" },
+            { "label": "Depth", "value": "3.8 inches (9.7 cm)" },
+            { "label": "Material", "value": "Medical-grade pure titanium (99.86%)" },
+            { "label": "Construction", "value": "5-ply full-clad" },
+            { "label": "Weight", "value": "3.8 lbs (1.72 kg)" },
+            { "label": "Oven Safe", "value": "Up to 1000°F" },
+            { "label": "Cooktop", "value": "Induction, gas, electric, ceramic" },
+            { "label": "Handle", "value": "Stay-cool main handle + riveted helper handle" }
+          ],
+          "amazon": {
+            "asin": "B0XXXXXXXXX",
+            "url": "https://www.amazon.com/dp/B0XXXXXXXXX",
+            "price": "$99.99",
+            "rating": 4.6,
+            "reviewCount": 389
+          }
+        }
+      ]
+    }
+  ],
+
+  "_meta": {
+    "version": "2.0",
+    "schema": "product-family-with-variants",
+    "lastUpdated": "2026-07-26",
+    "imageBasePath": "/images/products",
+    "variantImageConvention": {
+      "main": "main.webp",
+      "gallery": "01.webp, 02.webp, ... (auto-scanned in order)",
+      "hero": "hero.webp (at product-family root level)"
+    },
+    "addProductGuide": {
+      "steps": [
+        "1. Create folder: public/images/products/{product-slug}/",
+        "2. Inside, add hero.webp as the product family hero image",
+        "3. For each variant, create folder: {variant-imagesDir}/ and add main.webp + 01.webp + ...",
+        "4. Copy a product entry below and fill in the data",
+        "5. Rebuild — new product page auto-generated at /products/{product-slug}/"
+      ]
+    }
+  }
+}
