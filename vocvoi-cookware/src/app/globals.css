@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@400;500;600;700&family=General+Sans:wght@400;450;500&display=swap');
+@import "tailwindcss";
+
+@theme inline {
+  /* === Brand Neutrals — warm, luxury-grade === */
+  --color-cream: #FBF9F6;
+  --color-warm-white: #FEFDFB;
+  --color-sand: #F2EDE5;
+  --color-linen: #EBE5DB;
+  --color-titanium: #B5ACA2;
+  --color-titanium-dark: #8A827A;
+
+  /* === Text hierarchy — never pure black === */
+  --color-graphite: #23211F;
+  --color-stone: #5C5751;
+  --color-ash: #8F8982;
+  --color-mist: #BDB8B0;
+
+  /* === Base colors (required by Tailwind v4 when using @theme) === */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+
+  /* === Accent: warm copper (CTA, highlights) === */
+  --color-copper: #C2854A;
+  --color-copper-hover: #A8703A;
+  --color-copper-light: #F4EBE0;
+  --color-copper-lighter: #FAF4EC;
+
+  /* === Semantic aliases === */
+  --color-background: var(--color-cream);
+  --color-foreground: var(--color-graphite);
+
+  /* === Backward-compatible aliases (deprecated but functional) === */
+  --color-ivory: var(--color-cream);
+  --color-cashmere: var(--color-sand);
+  --color-charcoal: var(--color-graphite);
+  --color-slate: var(--color-stone);
+  --color-amber: var(--color-copper);
+  --color-amber-hover: var(--color-copper-hover);
+  --color-amber-light: var(--color-copper-light);
+  --color-muted: var(--color-ash);
+}
+
+/* === Base Typography === */
+body {
+  background: var(--color-cream);
+  color: var(--color-graphite);
+  font-family: 'General Sans', system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Headings: Satoshi — modern geometric precision */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Satoshi', system-ui, -apple-system, sans-serif;
+  font-weight: 600;
+  color: var(--color-graphite);
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+}
+
+/* Body text measure control */
+p {
+  max-width: 65ch;
+}
+
+::selection {
+  background: var(--color-copper-light);
+  color: var(--color-graphite);
+}
+
+/* === Link styling === */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* === Smooth scrolling (respects reduced-motion) === */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* === Subtle utilities for the luxury aesthetic === */
+@utility text-balance {
+  text-wrap: balance;
+}
+
+@utility grain-bg {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.02'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+}
+
+@utility shimmer-surface {
+  background: linear-gradient(
+    135deg,
+    rgba(181, 172, 162, 0.04) 0%,
+    rgba(181, 172, 162, 0.01) 50%,
+    rgba(181, 172, 162, 0.04) 100%
+  );
+}
+
+/* === Focus ring — visible, refined === */
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--color-copper);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
