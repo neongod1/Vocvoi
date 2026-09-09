@@ -9,8 +9,8 @@ export interface AmazonInfo {
   asin: string;
   url: string;
   price: string;
-  rating: number;
-  reviewCount: number;
+  rating?: number;
+  reviewCount?: number;
 }
 
 export interface ProductVariant {
