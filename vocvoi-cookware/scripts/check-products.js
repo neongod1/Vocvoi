@@ -108,7 +108,7 @@ for (const product of data.products) {
     const vLabel = `${label}[SKU: ${variant.sku || "UNKNOWN"}]`;
 
     // Required variant fields
-    for (const field of ["sku", "name", "shortName", "imagesDir", "category", "specs", "amazon"]) {
+    for (const field of ["sku", "name", "shortName", "title", "subtitle", "imagesDir", "category", "specs", "amazon"]) {
       if (!variant[field]) {
         error(`${vLabel} Missing required field: "${field}"`);
       }
@@ -129,8 +129,8 @@ for (const product of data.products) {
         warn(`${vLabel} Amazon URL doesn't start with https://www.amazon.com/`);
       }
       if (!variant.amazon.price) error(`${vLabel} Missing amazon.price`);
-      if (typeof variant.amazon.rating !== "number") error(`${vLabel} amazon.rating must be a number`);
-      if (typeof variant.amazon.reviewCount !== "number") error(`${vLabel} amazon.reviewCount must be a number`);
+      if (variant.amazon.rating !== undefined && typeof variant.amazon.rating !== "number") error(`${vLabel} amazon.rating must be a number when present`);
+      if (variant.amazon.reviewCount !== undefined && typeof variant.amazon.reviewCount !== "number") error(`${vLabel} amazon.reviewCount must be a number when present`);
     }
 
     // Specs
