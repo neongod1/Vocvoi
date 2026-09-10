@@ -317,8 +317,8 @@ export default function ProductPageClient({ product }: ProductPageClientProps) {
               />
             </div>
 
-            {[1, 2, 3, 4].map((n) => {
-              const imgPath = `${variantImageDir}/${String(n).padStart(2, "0")}.webp`;
+            {[2, 3, 5, 6].map((n) => {
+              const imgPath = `${variantImageDir}/image_${n}.jpg`;
               return (
                 <div
                   key={`${activeVariant.sku}-${n}`}
